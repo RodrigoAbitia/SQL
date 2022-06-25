@@ -1,0 +1,43 @@
+/* What does the app's SQL look like? */
+CREATE TABLE Letterboxd (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    Film TEXT,
+    Release_Date TEXT,
+    Watch TEXT,
+    Like TEXT,
+    Rating INTEGER
+    );
+    
+INSERT INTO Letterboxd (Film, Release_Date, Watch, Like, Rating) VALUES ("Spider-Man: No Way Home", "2021", "Watched", "Liked", 4);
+INSERT INTO Letterboxd (Film, Release_Date, Watch, Like, Rating) VALUES ("Se7en", "1995", "Watched", "Liked", 4.5);
+INSERT INTO Letterboxd (Film, Release_Date, Watch, Like, Rating) VALUES ("The Irishman", "2019", "Watched", "Not Liked", 3);
+INSERT INTO Letterboxd (Film, Release_Date, Watch, Like, Rating) VALUES ("Inception", "2010", "Not Watched", NULL, NULL);
+INSERT INTO Letterboxd (Film, Release_Date, Watch, Like, Rating) VALUES ("Knives Out", "2019", "Watched", "Liked", 4);
+INSERT INTO Letterboxd (Film, Release_Date, Watch, Like, Rating) VALUES ("Dunkirk", "2017", "Watched", "Liked", 4);
+INSERT INTO Letterboxd (Film, Release_Date, Watch, Like, Rating) VALUES ("Cherry", "2021", "Watched", "Not Liked", 3);
+INSERT INTO Letterboxd (Film, Release_Date, Watch, Like, Rating) VALUES ("Parasite", "2019", "Not Watched", NULL, NULL);
+INSERT INTO Letterboxd (Film, Release_Date, Watch, Like, Rating) VALUES ("Lucy", "2014", "Watched", "Not Liked", 3);
+INSERT INTO Letterboxd (Film, Release_Date, Watch, Like, Rating) VALUES ("Doctor Strange in the Multiverse of Madness", "2022", "Watched", "Liked", 3.5);
+INSERT INTO Letterboxd (Film, Release_Date, Watch, Like, Rating) VALUES ("Zodiac", "2007", "Watched", "Liked", 4);
+INSERT INTO Letterboxd (Film, Release_Date, Watch, Like, Rating) VALUES ("L.A. Confidential", "1997", "Not Watched", NULL, NULL);
+INSERT INTO Letterboxd (Film, Release_Date, Watch, Like, Rating) VALUES ("Prisoners", "2013", "Watched", "Liked", 4.5);
+INSERT INTO Letterboxd (Film, Release_Date, Watch, Like,Rating) VALUES ("Top Gun: Maverick", "2022", "Not Watched",NULL, NULL);
+INSERT INTO Letterboxd (Film, Release_Date, Watch, Like, Rating) VALUES ("Thor: Love and Thunder", "2022", "Not Watched", NULL, NULL);
+
+SELECT * FROM Letterboxd;
+
+UPDATE Letterboxd SET Watch = "Watched" WHERE id = 14;
+UPDATE Letterboxd SET Like = "Liked" WHERE id = 14;
+UPDATE Letterboxd SET Rating = 4 WHERE id = 14;
+
+SELECT * FROM Letterboxd;
+
+UPDATE Letterboxd SET Watch = "Watched" WHERE id = 8;
+UPDATE Letterboxd SET Like = "Liked" WHERE id = 8;
+UPDATE Letterboxd SET Rating = 4.5 WHERE id = 8;
+
+SELECT * FROM Letterboxd;
+
+DELETE FROM Letterboxd WHERE id= 15;
+
+SELECT * FROM Letterboxd;
