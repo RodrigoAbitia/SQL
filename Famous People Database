@@ -1,0 +1,189 @@
+CREATE TABLE Famous_People (id INTEGER PRIMARY KEY AUTOINCREMENT,
+    Name TEXT,
+    Occupation TEXT);
+
+CREATE TABLE Actors (id INTEGER PRIMARY KEY AUTOINCREMENT,
+    People_Id INTEGER,
+    Known_For TEXT,
+    Awards_Won INTEGER);
+
+CREATE TABLE Musicians (id INTEGER PRIMARY KEY AUTOINCREMENT,
+    People_Id INTEGER,
+    Famous_Song TEXT,
+    Awards_Won INTEGER);
+    
+CREATE TABLE Athletes (id INTEGER PRIMARY KEY AUTOINCREMENT,
+    People_Id INTEGER,
+    Sport TEXT,
+    Team TEXT,
+    Championships_Won INTEGER,
+    Teammate_Id INTEGER);
+
+CREATE TABLE Film_Directors (id INTEGER PRIMARY KEY AUTOINCREMENT,
+    People_Id INTEGER,
+    Known_For TEXT,
+    Awards_Won INTEGER,
+    Actors_Worked_With_Id INTEGER
+    );
+    
+INSERT INTO Famous_People (Name, Occupation) VALUES ("Brad Pitt", "Actor");
+INSERT INTO Famous_People (Name, Occupation) VALUES ("Timothee Chalamet", "Actor");
+INSERT INTO Famous_People (Name, Occupation) VALUES ("Leonardo DiCaprio", "Actor");
+INSERT INTO Famous_People (Name, Occupation) VALUES ("Samuel L. Jackson", "Actor");
+INSERT INTO Famous_People (Name, Occupation) VALUES ("Christian Bale", "Actor");
+INSERT INTO Famous_People (Name, Occupation) VALUES ("Michael B. Jordan", "Actor");
+INSERT INTO Famous_People (Name, Occupation) VALUES ("Johnny Depp", "Actor");
+INSERT INTO Famous_People (Name, Occupation) VALUES ("Harrison Ford", "Actor");
+INSERT INTO Famous_People (Name, Occupation) VALUES ("Robert Downey Jr.", "Actor");
+INSERT INTO Famous_People (Name, Occupation) VALUES ("Daniel Craig", "Actor");
+INSERT INTO Famous_People (Name, Occupation) VALUES ("Tobey Maguire", "Actor");
+INSERT INTO Famous_People (Name, Occupation) VALUES ("Daniel Radcliffe", "Actor");
+INSERT INTO Famous_People (Name, Occupation) VALUES ("Ryan Gosling", "Actor");
+INSERT INTO Famous_People (Name, Occupation) VALUES ("Hugh Jackman", "Actor");
+INSERT INTO Famous_People (Name, Occupation) VALUES ("Chris Pratt", "Actor");
+INSERT INTO Famous_People (Name, Occupation) VALUES ("Drake", "Musician");
+INSERT INTO Famous_People (Name, Occupation) VALUES ("Billie Eilish", "Musician");
+INSERT INTO Famous_People (Name, Occupation) VALUES ("Childish Gambino", "Musician");
+INSERT INTO Famous_People (Name, Occupation) VALUES ("Kendrick Lamar", "Musician");
+INSERT INTO Famous_People (Name, Occupation) VALUES ("H.E.R", "Musician");
+INSERT INTO Famous_People (Name, Occupation) VALUES ("SZA", "Musician");
+INSERT INTO Famous_People (Name, Occupation) VALUES ("Harry Styles", "Musician");
+INSERT INTO Famous_People (Name, Occupation) VALUES ("The Weeknd", "Musician");
+INSERT INTO Famous_People (Name, Occupation) VALUES ("Giveon", "Musician");
+INSERT INTO Famous_People (Name, Occupation) VALUES ("Bryson Tiller", "Musician");
+INSERT INTO Famous_People (Name, Occupation) VALUES ("Frank Ocean", "Musician");
+INSERT INTO Famous_People (Name, Occupation) VALUES ("Snoh Aalegra", "Musician");
+INSERT INTO Famous_People (Name, Occupation) VALUES ("Jorja Smith", "Musician");
+INSERT INTO Famous_People (Name, Occupation) VALUES ("Kanye West", "Musician");
+INSERT INTO Famous_People (Name, Occupation) VALUES ("Daniel Caesar", "Musician");
+INSERT INTO Famous_People (Name, Occupation) VALUES ("Justin Herbert", "Athletes");
+INSERT INTO Famous_People (Name, Occupation) VALUES ("LeBron James", "Athletes");
+INSERT INTO Famous_People (Name, Occupation) VALUES ("Christian Pulisic", "Athletes");
+INSERT INTO Famous_People (Name, Occupation) VALUES ("Keenan Allen", "Athletes");
+INSERT INTO Famous_People (Name, Occupation) VALUES ("Mason Mount", "Athletes");
+INSERT INTO Famous_People (Name, Occupation) VALUES ("Anthony Davis", "Athletes");
+INSERT INTO Famous_People (Name, Occupation) VALUES ("Fernando Tatis Jr.", "Athletes");
+INSERT INTO Famous_People (Name, Occupation) VALUES ("Stephen Curry", "Athletes");
+INSERT INTO Famous_People (Name, Occupation) VALUES ("Klay Thompson", "Athletes");
+INSERT INTO Famous_People (Name, Occupation) VALUES ("Lionel Messi", "Athletes");
+INSERT INTO Famous_People (Name, Occupation) VALUES ("Manny Machado", "Athletes");
+INSERT INTO Famous_People (Name, Occupation) VALUES ("Jalen Ramsey", "Athletes");
+INSERT INTO Famous_People (Name, Occupation) VALUES ("Neymar", "Athletes");
+INSERT INTO Famous_People (Name, Occupation) VALUES ("Kevin Durant", "Athletes");
+INSERT INTO Famous_People (Name, Occupation) VALUES ("Aaron Donald", "Athletes");
+INSERT INTO Famous_People (Name, Occupation) VALUES ("Kyrie Irving", "Athletes");
+INSERT INTO Famous_People (Name, Occupation) VALUES ("Ryan Coogler", "Film Directors");
+INSERT INTO Famous_People (Name, Occupation) VALUES ("David Fincher", "Film Directors");
+INSERT INTO Famous_People (Name, Occupation) VALUES ("Denis Villenueve", "Film Directors");
+INSERT INTO Famous_People (Name, Occupation) VALUES ("Martin Scorsese", "Film Directors");
+INSERT INTO Famous_People (Name, Occupation) VALUES ("Quentin Tarantino", "Film Directors");
+INSERT INTO Famous_People (Name, Occupation) VALUES ("Christopher Nolan", "Film Directors");
+INSERT INTO Famous_People (Name, Occupation) VALUES ("Tim Burton", "Film Directors");
+INSERT INTO Famous_People (Name, Occupation) VALUES ("Steven Spielberg", "Film Directors");
+INSERT INTO Famous_People (Name, Occupation) VALUES ("Jon Favreau", "Film Directors");
+INSERT INTO Famous_People (Name, Occupation) VALUES ("Sam Mendes", "Film Directors");
+INSERT INTO Famous_People (Name, Occupation) VALUES ("Sam Raimi", "Film Directors");
+INSERT INTO Famous_People (Name, Occupation) VALUES ("Alfonso Cuaron", "Film Directors");
+INSERT INTO Famous_People (Name, Occupation) VALUES ("Damien Chazelle", "Film Directors");
+INSERT INTO Famous_People (Name, Occupation) VALUES ("James Mangold", "Film Directors");
+INSERT INTO Famous_People (Name, Occupation) VALUES ("James Gunn", "Film Directors");
+
+INSERT INTO Actors (People_Id, Known_For, Awards_Won) VALUES (1, "Se7en", 121);
+INSERT INTO Actors (People_Id, Known_For, Awards_Won) VALUES (2, "Dune", 40);
+INSERT INTO Actors (People_Id, Known_For, Awards_Won) VALUES (3, "The Wolf of Wall Street", 101);
+INSERT INTO Actors (People_Id, Known_For, Awards_Won) VALUES (4, "Pulp Fiction", 45);
+INSERT INTO Actors (People_Id, Known_For, Awards_Won) VALUES (5, "The Dark Knight", 82);
+INSERT INTO Actors (People_Id, Known_For, Awards_Won) VALUES (6, "Creed", 42);
+INSERT INTO Actors (People_Id, Known_For, Awards_Won) VALUES (7, "Edwards Scissorhands", 81);
+INSERT INTO Actors (People_Id, Known_For, Awards_Won) VALUES (8, "Raiders of The Lost Ark", 44);
+INSERT INTO Actors (People_Id, Known_For, Awards_Won) VALUES (9, "Iron Man", 43);
+INSERT INTO Actors (People_Id, Known_For, Awards_Won) VALUES (10, "Skyfall", 17);
+INSERT INTO Actors (People_Id, Known_For, Awards_Won) VALUES (11, "Spider-Man", 9);
+INSERT INTO Actors (People_Id, Known_For, Awards_Won) VALUES (12, "Harry Potter and The Prisoner of Azkaban", 15);
+INSERT INTO Actors (People_Id, Known_For, Awards_Won) VALUES (13, "La La Land", 37);
+INSERT INTO Actors (People_Id, Known_For, Awards_Won) VALUES (14, "Logan", 33);
+INSERT INTO Actors (People_Id, Known_For, Awards_Won) VALUES (15, "Guardians of The Galaxy", 18);
+
+INSERT INTO Musicians (People_Id, Famous_Song, Awards_Won) VALUES (16, "Hold On, We're Going Home", 192);
+INSERT INTO Musicians (People_Id, Famous_Song, Awards_Won) VALUES (17, "Bad Guy", 113);
+INSERT INTO Musicians (People_Id, Famous_Song, Awards_Won) VALUES (18, "This is America", 12);
+INSERT INTO Musicians (People_Id, Famous_Song, Awards_Won) VALUES (19, "Alright", 161);
+INSERT INTO Musicians (People_Id, Famous_Song, Awards_Won) VALUES (20, "Best Part", 18);
+INSERT INTO Musicians (People_Id, Famous_Song, Awards_Won) VALUES (21, "Love Galore", 25);
+INSERT INTO Musicians (People_Id, Famous_Song, Awards_Won) VALUES (22, "Watermelon Sugar", 43);
+INSERT INTO Musicians (People_Id, Famous_Song, Awards_Won) VALUES (23, "Can't Feel My Face", 139);
+INSERT INTO Musicians (People_Id, Famous_Song, Awards_Won) VALUES (24, "Heartbrake Anniversary", 5);
+INSERT INTO Musicians (People_Id, Famous_Song, Awards_Won) VALUES (25, "Don't", 12);
+INSERT INTO Musicians (People_Id, Famous_Song, Awards_Won) VALUES (26, "Ivy", 14);
+INSERT INTO Musicians (People_Id, Famous_Song, Awards_Won) VALUES (27, "I Want You Around", 3);
+INSERT INTO Musicians (People_Id, Famous_Song, Awards_Won) VALUES (28, "Teenage Fantasy", 3);
+INSERT INTO Musicians (People_Id, Famous_Song, Awards_Won) VALUES (29, "Gold Digger", 272);
+INSERT INTO Musicians (People_Id, Famous_Song, Awards_Won) VALUES (30, "Get You", 5);
+
+
+INSERT INTO Athletes (People_Id, Sport, Team, Championships_Won, Teammate_Id) VALUES (31, "Football", "Los Angeles Chargers", 0, 34);
+INSERT INTO Athletes (People_Id, Sport, Team, Championships_Won, Teammate_Id) VALUES (32, "Basketball", "Los Angeles Lakers", 4, 36);
+INSERT INTO Athletes (People_Id, Sport, Team, Championships_Won, Teammate_Id) VALUES (33, "Soccer", "Chelsea F.C.", 5, 35);
+INSERT INTO Athletes (People_Id, Sport, Team, Championships_Won, Teammate_Id) VALUES (34, "Football", "Los Angeles Chargers", 0, 31);
+INSERT INTO Athletes (People_Id, Sport, Team, Championships_Won, Teammate_Id) VALUES (35,"Soccer", "Chelsea F.C.", 3, 33);
+INSERT INTO Athletes (People_Id, Sport, Team, Championships_Won, Teammate_Id) VALUES (36, "Basketball", "Los Angeles Lakers", 1, 32);
+INSERT INTO Athletes (People_Id, Sport, Team, Championships_Won, Teammate_Id) VALUES (37, "Baseball", "San Diego Padres", 0, 45);
+INSERT INTO Athletes (People_Id, Sport, Team, Championships_Won, Teammate_Id) VALUES (38, "Basketball", "Golden State Warriors", 3, 39);
+INSERT INTO Athletes (People_Id, Sport, Team, Championships_Won, Teammate_Id) VALUES (39, "Basketball", "Golden State Warriors", 3, 38);
+INSERT INTO Athletes (People_Id, Sport, Team, Championships_Won, Teammate_Id) VALUES (40, "Soccer", "Paris Saint Germain", 39, 43);
+INSERT INTO Athletes (People_Id, Sport, Team, Championships_Won, Teammate_Id) VALUES (41, "Baseball", "San Diego Padres", 0, 37);
+INSERT INTO Athletes (People_Id, Sport, Team, Championships_Won, Teammate_Id) VALUES (42, "Football", "Los Angeles Rams", 1, 45);
+INSERT INTO Athletes (People_Id, Sport, Team, Championships_Won, Teammate_Id) VALUES (43, "Soccer", "Paris Saint Germain", 25, 40);
+INSERT INTO Athletes (People_Id, Sport, Team, Championships_Won, Teammate_Id) VALUES (44, "Basketball", "Brooklyn Nets", 2, 46);
+INSERT INTO Athletes (People_Id, Sport, Team, Championships_Won, Teammate_Id) VALUES (45, "Football", "Los Angeles Rams", 1, 42);
+INSERT INTO Athletes (People_Id, Sport, Team, Championships_Won, Teammate_Id) VALUES (46, "Basketball", "Brooklyn Nets", 1, 44);
+
+
+
+INSERT INTO Film_Directors (People_Id, Known_For, Awards_Won, Actors_Worked_With_Id) VALUES (47, "Black Panther", 50, 6);
+INSERT INTO Film_Directors (People_Id, Known_For, Awards_Won, Actors_Worked_With_Id) VALUES (48, "Se7en", 70, 1);
+INSERT INTO Film_Directors (People_Id, Known_For, Awards_Won, Actors_Worked_With_Id) VALUES (49, "Dune", 92, 2);
+INSERT INTO Film_Directors (People_Id, Known_For, Awards_Won, Actors_Worked_With_Id) VALUES (50, "The Wolf of Wall Street", 170, 3);
+INSERT INTO Film_Directors (People_Id, Known_For, Awards_Won, Actors_Worked_With_Id) VALUES (51, "Pulp Fiction", 172, 4);
+INSERT INTO Film_Directors (People_Id, Known_For, Awards_Won, Actors_Worked_With_Id) VALUES (52, "The Dark Knight", 192, 5);
+INSERT INTO Film_Directors (People_Id, Known_For, Awards_Won, Actors_Worked_With_Id) VALUES (53, "Edwards Scissorhands", 27, 7);
+INSERT INTO Film_Directors (People_Id, Known_For, Awards_Won, Actors_Worked_With_Id) VALUES (54, "Raiders of The Lost Ark", 198, 8);
+INSERT INTO Film_Directors (People_Id, Known_For, Awards_Won, Actors_Worked_With_Id) VALUES (55, "Iron Man", 11, 9);
+INSERT INTO Film_Directors (People_Id, Known_For, Awards_Won, Actors_Worked_With_Id) VALUES (56, "Skyfall", 62, 10);
+INSERT INTO Film_Directors (People_Id, Known_For, Awards_Won, Actors_Worked_With_Id) VALUES (57, "Spider-Man", 14, 11);
+INSERT INTO Film_Directors (People_Id, Known_For, Awards_Won, Actors_Worked_With_Id) VALUES (58, "Harry Potter and The Prisoner of Azkaban", 260, 12);
+INSERT INTO Film_Directors (People_Id, Known_For, Awards_Won, Actors_Worked_With_Id) VALUES (59, "La La Land", 79, 13);
+INSERT INTO Film_Directors (People_Id, Known_For, Awards_Won, Actors_Worked_With_Id) VALUES (60, "Logan", 11, 14);
+INSERT INTO Film_Directors (People_Id, Known_For, Awards_Won, Actors_Worked_With_Id) VALUES (61, "Guardians of The Galaxy", 15, 15);
+
+
+
+SELECT Famous_People.Name, Actors.Known_For AS "Known For", Actors.Awards_Won AS "Awards Won" FROM Famous_People
+    JOIN Actors
+    ON Famous_People.id = Actors.People_Id;
+    
+SELECT Famous_People.Name, Musicians.Famous_Song AS "Famous Song", Musicians.Awards_Won AS "Awards Won" FROM Famous_People
+    JOIN Musicians
+    ON Famous_People.id = Musicians.People_Id;
+
+SELECT Famous_People.Name, Athletes.Sport, Athletes.Team, Athletes.Championships_Won AS "Championships Won" FROM Famous_People
+    JOIN Athletes
+    ON Famous_People.id = Athletes.People_Id;
+    
+SELECT A.Name AS Athlete, B.Name AS Teammate, Athletes.Team FROM Athletes 
+    JOIN Famous_People A
+    ON Athletes.People_Id = A.Id
+    JOIN Famous_People B
+    ON Athletes.Teammate_Id = B.Id
+    GROUP BY Team;
+
+SELECT Famous_People.Name, Film_Directors.Known_For AS "Known For", Film_Directors.Awards_Won AS "Awards Won"FROM Famous_People
+    JOIN Film_Directors
+    ON Famous_People.id = Film_Directors.People_Id
+    GROUP BY Name;
+
+SELECT A.Name AS Director, B.Name AS "Actor", Film_Directors.Known_For AS "Worked On" FROM Film_Directors
+    JOIN Famous_People A
+    ON Film_Directors.People_Id = A.Id
+    JOIN Famous_People B
+    ON Film_Directors.Actors_Worked_With_Id = B.Id;
