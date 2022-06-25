@@ -1,0 +1,40 @@
+/** Store list: 
+Basketball (55)
+Soccer Ball (76)
+Football (88)
+Volley Ball (77)
+Golf Ball (125)
+Hockey Puck (100)
+Baseball (70)
+Soccer Cleats (52)
+Football Cleats (47)
+Basketball Sneakers (70)
+Baseball Bat (67)
+Basketball Jersey (82)
+Soccer Jersey (94)
+Baseball Jersey (85)
+Football Jersey (58)
+**/
+
+CREATE TABLE store (id INTEGER PRIMARY KEY, name TEXT, quantity INTEGER, aisle INTEGER, price INTEGER);
+
+INSERT INTO store VALUES (1, "Basketball", 55, 6,25);
+INSERT INTO store VALUES (2, "Soccer Ball", 76, 3, 30);
+INSERT INTO store VALUES (3, "Football", 88, 5, 45);
+INSERT INTO store VALUES (4, "Volley Ball", 77, 4, 20);
+INSERT INTO store VALUES (5, "Golf Ball", 125, 1, 11);
+INSERT INTO store VALUES (6, "Hockey Puck", 100, 8,18);
+INSERT INTO store VALUES (7, "Baseball", 70, 2,25);
+INSERT INTO store VALUES (8, "Soccer Cleats", 52, 3,52);
+INSERT INTO store VALUES (9, "Fotball Cleats", 47, 5,47);
+INSERT INTO store VALUES (10, "Basketball Sneakers", 70, 6,85);
+INSERT INTO store VALUES (11, "Baseball Bat", 67, 2,65);
+INSERT INTO store VALUES (12, "Basketball Jersey", 82, 6,50);
+INSERT INTO store VALUES (13, "Soccer Jersey", 94, 3,60);
+INSERT INTO store VALUES (14, "Baseball Jersey", 85, 2,48);
+INSERT INTO store VALUES (15, "Football Jersey", 58, 5,70);
+
+
+SELECT * FROM store ORDER BY price;
+
+SELECT * FROM store WHERE quantity > 80;
