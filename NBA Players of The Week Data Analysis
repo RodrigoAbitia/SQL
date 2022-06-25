@@ -1,0 +1,88 @@
+/*NBA Players Of The Week (2018-2019 Season)*/
+
+CREATE TABLE players(
+   Player            TEXT,
+   Team              TEXT,
+   Conference        TEXT,
+   Date              TEXT,
+   Position          TEXT,
+   Height            TEXT,
+   Weight            INTEGER,
+   Age               INTEGER,
+   Draft_Year        INTEGER,
+   Seasons_in_league INTEGER,
+   Season            TEXT,
+   Season_short      INTEGER,
+   Predraft_Team     TEXT,
+   Real_value        REAL,
+   Height_CM         INTEGER,
+   Weight_KG         INTEGER,
+   Last_Season       INTEGER
+);
+INSERT INTO players(Player,Team,Conference,Date,Position,Height,Weight,Age,Draft_Year,Seasons_in_league,Season,Season_short,Predraft_Team,Real_value,Height_CM,Weight_KG,Last_Season) VALUES ('Kemba Walker','Charlotte Hornets','East','Apr 8, 2019','G','6''1',184,28,2011,7,'2018-2019',2019,'Connecticut',0.5,185,83,0);
+INSERT INTO players(Player,Team,Conference,Date,Position,Height,Weight,Age,Draft_Year,Seasons_in_league,Season,Season_short,Predraft_Team,Real_value,Height_CM,Weight_KG,Last_Season) VALUES ('Russell Westbrook','Oklahoma City Thunder','West','Apr 8, 2019','G','6''3',200,30,2008,10,'2018-2019',2019,'UCLA',0.5,190,90,0);
+INSERT INTO players(Player,Team,Conference,Date,Position,Height,Weight,Age,Draft_Year,Seasons_in_league,Season,Season_short,Predraft_Team,Real_value,Height_CM,Weight_KG,Last_Season) VALUES ('Andre Drummond','Detroit Pistons','East','Apr 1, 2019','C','6''11',279,25,2012,6,'2018-2019',2019,'Connecticut',0.5,211,126,0);
+INSERT INTO players(Player,Team,Conference,Date,Position,Height,Weight,Age,Draft_Year,Seasons_in_league,Season,Season_short,Predraft_Team,Real_value,Height_CM,Weight_KG,Last_Season) VALUES ('Damian Lillard','Portland Trail Blazers','West','Apr 1, 2019','G','6''3',195,28,2012,6,'2018-2019',2019,'Weber State',0.5,190,88,0);
+INSERT INTO players(Player,Team,Conference,Date,Position,Height,Weight,Age,Draft_Year,Seasons_in_league,Season,Season_short,Predraft_Team,Real_value,Height_CM,Weight_KG,Last_Season) VALUES ('Trae Young','Atlanta Hawks','East','Mar 25, 2019','PG','6''2',180,20,2018,0,'2018-2019',2019,'Oklahoma',0.5,188,81,0);
+INSERT INTO players(Player,Team,Conference,Date,Position,Height,Weight,Age,Draft_Year,Seasons_in_league,Season,Season_short,Predraft_Team,Real_value,Height_CM,Weight_KG,Last_Season) VALUES ('James Harden','Houston Rockets','West','Mar 25, 2019','SG','6''5',220,29,2009,9,'2018-2019',2019,'Arizona State',0.5,196,99,0);
+INSERT INTO players(Player,Team,Conference,Date,Position,Height,Weight,Age,Draft_Year,Seasons_in_league,Season,Season_short,Predraft_Team,Real_value,Height_CM,Weight_KG,Last_Season) VALUES ('Bradley Beal','Washington Wizards','East','Mar 18, 2019','SG','6''3',207,25,2012,6,'2018-2019',2019,'Florida',0.5,190,93,0);
+INSERT INTO players(Player,Team,Conference,Date,Position,Height,Weight,Age,Draft_Year,Seasons_in_league,Season,Season_short,Predraft_Team,Real_value,Height_CM,Weight_KG,Last_Season) VALUES ('Rudy Gobert','Utah Jazz','West','Mar 18, 2019','C','7''1',245,26,2013,5,'2018-2019',2019,'Cholet Basket (France)',0.5,216,111,0);
+INSERT INTO players(Player,Team,Conference,Date,Position,Height,Weight,Age,Draft_Year,Seasons_in_league,Season,Season_short,Predraft_Team,Real_value,Height_CM,Weight_KG,Last_Season) VALUES ('Andre Drummond','Detroit Pistons','East','Mar 11, 2019','C','6''11',279,25,2012,6,'2018-2019',2019,'Connecticut',0.5,211,126,0);
+INSERT INTO players(Player,Team,Conference,Date,Position,Height,Weight,Age,Draft_Year,Seasons_in_league,Season,Season_short,Predraft_Team,Real_value,Height_CM,Weight_KG,Last_Season) VALUES ('Mike Conley','Memphis Grizzlies','West','Mar 11, 2019','PG','6''1',175,31,2007,11,'2018-2019',2019,'Ohio State',0.5,185,79,0);
+INSERT INTO players(Player,Team,Conference,Date,Position,Height,Weight,Age,Draft_Year,Seasons_in_league,Season,Season_short,Predraft_Team,Real_value,Height_CM,Weight_KG,Last_Season) VALUES ('Ben Simmons','Philadelphia Sixers','East','Mar 4, 2019','PF','6''10',230,22,2016,2,'2018-2019',2019,'LSU',0.5,208,104,0);
+INSERT INTO players(Player,Team,Conference,Date,Position,Height,Weight,Age,Draft_Year,Seasons_in_league,Season,Season_short,Predraft_Team,Real_value,Height_CM,Weight_KG,Last_Season) VALUES ('Donovan Mitchell','Utah Jazz','West','Mar 4, 2019','SG','6''3',215,22,2017,1,'2018-2019',2019,'Louisville',0.5,190,97,0);
+INSERT INTO players(Player,Team,Conference,Date,Position,Height,Weight,Age,Draft_Year,Seasons_in_league,Season,Season_short,Predraft_Team,Real_value,Height_CM,Weight_KG,Last_Season) VALUES ('Bojan Bogdanovic','Indiana Pacers','East','Feb 11, 2019','F','6''8',216,29,2011,4,'2018-2019',2019,'KK Cibona (Croatia)',0.5,203,98,0);
+INSERT INTO players(Player,Team,Conference,Date,Position,Height,Weight,Age,Draft_Year,Seasons_in_league,Season,Season_short,Predraft_Team,Real_value,Height_CM,Weight_KG,Last_Season) VALUES ('Paul George','Oklahoma City Thunder','West','Feb 11, 2019','GF','6''9',220,28,2010,8,'2018-2019',2019,'Fresno State',0.5,206,99,0);
+INSERT INTO players(Player,Team,Conference,Date,Position,Height,Weight,Age,Draft_Year,Seasons_in_league,Season,Season_short,Predraft_Team,Real_value,Height_CM,Weight_KG,Last_Season) VALUES ('Giannis Antetokounmpo','Milwaukee Bucks','East','Feb 4, 2019','F','6''11',242,24,2013,5,'2018-2019',2019,'Filathlitikos Div II Greece (Greece)',0.5,211,109,0);
+INSERT INTO players(Player,Team,Conference,Date,Position,Height,Weight,Age,Draft_Year,Seasons_in_league,Season,Season_short,Predraft_Team,Real_value,Height_CM,Weight_KG,Last_Season) VALUES ('Nikola Jokic','Denver Nuggets','West','Feb 4, 2019','C','7''0',250,24,2014,3,'2018-2019',2019,'KK Mega Bemax (Serbia)',0.5,213,113,0);
+INSERT INTO players(Player,Team,Conference,Date,Position,Height,Weight,Age,Draft_Year,Seasons_in_league,Season,Season_short,Predraft_Team,Real_value,Height_CM,Weight_KG,Last_Season) VALUES ('Giannis Antetokounmpo','Milwaukee Bucks','East','Jan 28, 2019','F','6''11',242,24,2013,5,'2018-2019',2019,'Filathlitikos Div II Greece (Greece)',0.5,211,109,0);
+INSERT INTO players(Player,Team,Conference,Date,Position,Height,Weight,Age,Draft_Year,Seasons_in_league,Season,Season_short,Predraft_Team,Real_value,Height_CM,Weight_KG,Last_Season) VALUES ('Paul George','Oklahoma City Thunder','West','Jan 28, 2019','GF','6''9',220,28,2010,8,'2018-2019',2019,'Fresno State',0.5,206,99,0);
+INSERT INTO players(Player,Team,Conference,Date,Position,Height,Weight,Age,Draft_Year,Seasons_in_league,Season,Season_short,Predraft_Team,Real_value,Height_CM,Weight_KG,Last_Season) VALUES ('D''Angelo Russell','Brooklyn Nets','East','Jan 21, 2019','SG','6''5',198,23,2015,3,'2018-2019',2019,'Ohio State',0.5,196,89,0);
+INSERT INTO players(Player,Team,Conference,Date,Position,Height,Weight,Age,Draft_Year,Seasons_in_league,Season,Season_short,Predraft_Team,Real_value,Height_CM,Weight_KG,Last_Season) VALUES ('James Harden','Houston Rockets','West','Jan 21, 2019','SG','6''5',220,29,2009,9,'2018-2019',2019,'Arizona State',0.5,196,99,0);
+INSERT INTO players(Player,Team,Conference,Date,Position,Height,Weight,Age,Draft_Year,Seasons_in_league,Season,Season_short,Predraft_Team,Real_value,Height_CM,Weight_KG,Last_Season) VALUES ('Kawhi Leonard','Toronto Raptors','East','Jan 14, 2019','F','6''7',230,27,2011,7,'2018-2019',2019,'San Diego State',0.5,201,104,0);
+INSERT INTO players(Player,Team,Conference,Date,Position,Height,Weight,Age,Draft_Year,Seasons_in_league,Season,Season_short,Predraft_Team,Real_value,Height_CM,Weight_KG,Last_Season) VALUES ('Donovan Mitchell','Utah Jazz','West','Jan 14, 2019','SG','6''3',215,22,2017,1,'2018-2019',2019,'Louisville',0.5,190,97,0);
+INSERT INTO players(Player,Team,Conference,Date,Position,Height,Weight,Age,Draft_Year,Seasons_in_league,Season,Season_short,Predraft_Team,Real_value,Height_CM,Weight_KG,Last_Season) VALUES ('Joel Embiid','Philadelphia Sixers','East','Jan 7, 2019','C','7''0',250,24,2014,4,'2018-2019',2019,'Kansas',0.5,213,113,0);
+INSERT INTO players(Player,Team,Conference,Date,Position,Height,Weight,Age,Draft_Year,Seasons_in_league,Season,Season_short,Predraft_Team,Real_value,Height_CM,Weight_KG,Last_Season) VALUES ('Nikola Jokic','Denver Nuggets','West','Jan 7, 2019','C','7''0',250,24,2014,3,'2018-2019',2019,'KK Mega Bemax (Serbia)',0.5,213,113,0);
+INSERT INTO players(Player,Team,Conference,Date,Position,Height,Weight,Age,Draft_Year,Seasons_in_league,Season,Season_short,Predraft_Team,Real_value,Height_CM,Weight_KG,Last_Season) VALUES ('Giannis Antetokounmpo','Milwaukee Bucks','East','Dec 31, 2018','F','6''11',242,24,2013,5,'2018-2019',2019,'Filathlitikos Div II Greece (Greece)',0.5,211,109,0);
+INSERT INTO players(Player,Team,Conference,Date,Position,Height,Weight,Age,Draft_Year,Seasons_in_league,Season,Season_short,Predraft_Team,Real_value,Height_CM,Weight_KG,Last_Season) VALUES ('James Harden','Houston Rockets','West','Dec 31, 2018','SG','6''5',220,29,2009,9,'2018-2019',2019,'Arizona State',0.5,196,99,0);
+INSERT INTO players(Player,Team,Conference,Date,Position,Height,Weight,Age,Draft_Year,Seasons_in_league,Season,Season_short,Predraft_Team,Real_value,Height_CM,Weight_KG,Last_Season) VALUES ('Giannis Antetokounmpo','Milwaukee Bucks','East','Dec 24, 2018','F','6''11',242,24,2013,5,'2018-2019',2019,'Filathlitikos Div II Greece (Greece)',0.5,211,109,0);
+INSERT INTO players(Player,Team,Conference,Date,Position,Height,Weight,Age,Draft_Year,Seasons_in_league,Season,Season_short,Predraft_Team,Real_value,Height_CM,Weight_KG,Last_Season) VALUES ('Paul George','Oklahoma City Thunder','West','Dec 24, 2018','GF','6''9',220,28,2010,8,'2018-2019',2019,'Fresno State',0.5,206,99,0);
+INSERT INTO players(Player,Team,Conference,Date,Position,Height,Weight,Age,Draft_Year,Seasons_in_league,Season,Season_short,Predraft_Team,Real_value,Height_CM,Weight_KG,Last_Season) VALUES ('Thaddeus Young','Indiana Pacers','East','Dec 17, 2018','F','6''8',221,30,2007,11,'2018-2019',2019,'Georgia Tech',0.5,203,100,0);
+INSERT INTO players(Player,Team,Conference,Date,Position,Height,Weight,Age,Draft_Year,Seasons_in_league,Season,Season_short,Predraft_Team,Real_value,Height_CM,Weight_KG,Last_Season) VALUES ('James Harden','Houston Rockets','West','Dec 17, 2018','SG','6''5',220,29,2009,9,'2018-2019',2019,'Arizona State',0.5,196,99,0);
+INSERT INTO players(Player,Team,Conference,Date,Position,Height,Weight,Age,Draft_Year,Seasons_in_league,Season,Season_short,Predraft_Team,Real_value,Height_CM,Weight_KG,Last_Season) VALUES ('Bradley Beal','Washington Wizards','East','Dec 10, 2018','SG','6''3',207,25,2012,6,'2018-2019',2019,'Florida',0.5,190,93,0);
+INSERT INTO players(Player,Team,Conference,Date,Position,Height,Weight,Age,Draft_Year,Seasons_in_league,Season,Season_short,Predraft_Team,Real_value,Height_CM,Weight_KG,Last_Season) VALUES ('Stephen Curry','Golden State Warriors','West','Dec 10, 2018','G','6''3',190,30,2009,9,'2018-2019',2019,'Davidson',0.5,190,86,0);
+INSERT INTO players(Player,Team,Conference,Date,Position,Height,Weight,Age,Draft_Year,Seasons_in_league,Season,Season_short,Predraft_Team,Real_value,Height_CM,Weight_KG,Last_Season) VALUES ('Kawhi Leonard','Toronto Raptors','East','Dec 3, 2018','F','6''7',230,27,2011,7,'2018-2019',2019,'San Diego State',0.5,201,104,0);
+INSERT INTO players(Player,Team,Conference,Date,Position,Height,Weight,Age,Draft_Year,Seasons_in_league,Season,Season_short,Predraft_Team,Real_value,Height_CM,Weight_KG,Last_Season) VALUES ('Paul Millsap','Denver Nuggets','West','Dec 3, 2018','FC','6''8',246,34,2006,12,'2018-2019',2019,'Louisiana Tech',0.5,203,111,0);
+INSERT INTO players(Player,Team,Conference,Date,Position,Height,Weight,Age,Draft_Year,Seasons_in_league,Season,Season_short,Predraft_Team,Real_value,Height_CM,Weight_KG,Last_Season) VALUES ('Giannis Antetokounmpo','Milwaukee Bucks','East','Nov 26, 2018','F','6''11',242,24,2013,5,'2018-2019',2019,'Filathlitikos Div II Greece (Greece)',0.5,211,109,0);
+INSERT INTO players(Player,Team,Conference,Date,Position,Height,Weight,Age,Draft_Year,Seasons_in_league,Season,Season_short,Predraft_Team,Real_value,Height_CM,Weight_KG,Last_Season) VALUES ('Tobias Harris','Los Angeles Clippers','West','Nov 26, 2018','F','6''9',235,26,2011,7,'2018-2019',2019,'Tennessee',0.5,206,106,0);
+INSERT INTO players(Player,Team,Conference,Date,Position,Height,Weight,Age,Draft_Year,Seasons_in_league,Season,Season_short,Predraft_Team,Real_value,Height_CM,Weight_KG,Last_Season) VALUES ('Nikola Vucevic','Orlando Magic','East','Nov 19, 2018','PF','7''0',260,28,2011,7,'2018-2019',2019,'USC',0.5,213,118,0);
+INSERT INTO players(Player,Team,Conference,Date,Position,Height,Weight,Age,Draft_Year,Seasons_in_league,Season,Season_short,Predraft_Team,Real_value,Height_CM,Weight_KG,Last_Season) VALUES ('Anthony Davis','New Orleans Pelicans','West','Nov 19, 2018','PF','6''10',253,25,2012,6,'2018-2019',2019,'Kentucky',0.5,208,114,0);
+INSERT INTO players(Player,Team,Conference,Date,Position,Height,Weight,Age,Draft_Year,Seasons_in_league,Season,Season_short,Predraft_Team,Real_value,Height_CM,Weight_KG,Last_Season) VALUES ('Pascal Siakam','Toronto Raptors','East','Nov 12, 2018','F','6''9',230,24,2016,2,'2018-2019',2019,'New Mexico State',0.5,206,104,0);
+INSERT INTO players(Player,Team,Conference,Date,Position,Height,Weight,Age,Draft_Year,Seasons_in_league,Season,Season_short,Predraft_Team,Real_value,Height_CM,Weight_KG,Last_Season) VALUES ('C.J. McCollum','Portland Trail Blazers','West','Nov 12, 2018','G','6''3',190,27,2013,5,'2018-2019',2019,'Lehigh',0.5,190,86,0);
+INSERT INTO players(Player,Team,Conference,Date,Position,Height,Weight,Age,Draft_Year,Seasons_in_league,Season,Season_short,Predraft_Team,Real_value,Height_CM,Weight_KG,Last_Season) VALUES ('Victor Oladipo','Indiana Pacers','East','Nov 5, 2018','G','6''4',210,26,2013,5,'2018-2019',2019,'Indiana',0.5,193,95,0);
+INSERT INTO players(Player,Team,Conference,Date,Position,Height,Weight,Age,Draft_Year,Seasons_in_league,Season,Season_short,Predraft_Team,Real_value,Height_CM,Weight_KG,Last_Season) VALUES ('Russell Westbrook','Oklahoma City Thunder','West','Nov 5, 2018','G','6''3',200,30,2008,10,'2018-2019',2019,'UCLA',0.5,190,90,0);
+INSERT INTO players(Player,Team,Conference,Date,Position,Height,Weight,Age,Draft_Year,Seasons_in_league,Season,Season_short,Predraft_Team,Real_value,Height_CM,Weight_KG,Last_Season) VALUES ('Giannis Antetokounmpo','Milwaukee Bucks','East','Oct 29, 2018','F','6''11',242,24,2013,5,'2018-2019',2019,'Filathlitikos Div II Greece (Greece)',0.5,211,109,0);
+INSERT INTO players(Player,Team,Conference,Date,Position,Height,Weight,Age,Draft_Year,Seasons_in_league,Season,Season_short,Predraft_Team,Real_value,Height_CM,Weight_KG,Last_Season) VALUES ('Stephen Curry','Golden State Warriors','West','Oct 29, 2018','G','6''3',190,30,2009,9,'2018-2019',2019,'Davidson',0.5,190,86,0);
+INSERT INTO players(Player,Team,Conference,Date,Position,Height,Weight,Age,Draft_Year,Seasons_in_league,Season,Season_short,Predraft_Team,Real_value,Height_CM,Weight_KG,Last_Season) VALUES ('Kemba Walker','Charlotte Hornets','East','Oct 22, 2018','G','6''1',184,28,2011,7,'2018-2019',2019,'Connecticut',0.5,185,83,0);
+INSERT INTO players(Player,Team,Conference,Date,Position,Height,Weight,Age,Draft_Year,Seasons_in_league,Season,Season_short,Predraft_Team,Real_value,Height_CM,Weight_KG,Last_Season) VALUES ('Nikola Jokic','Denver Nuggets','West','Oct 22, 2018','C','7''0',250,24,2014,3,'2018-2019',2019,'KK Mega Bemax (Serbia)',0.5,213,113,0);
+
+SELECT Player, Seasons_in_league,
+    CASE
+    WHEN Seasons_in_league = 0 Then "Rookie"
+    WHEN Seasons_in_league = 1 Then "Sophmore"
+    WHEN Seasons_in_league = 2 OR Seasons_in_league = 3 Then "Experienced"
+    WHEN Seasons_in_league = 4 OR Seasons_in_league = 5 OR Seasons_in_league = 6  Then "Veteran"
+    WHEN Seasons_in_league >= 7 Then "Seasoned Veteran"
+    END AS "Experience Level"
+FROM players
+GROUP BY Player;
+
+SELECT ROUND(AVG(Seasons_in_league)) AS Avg_Seasons_In_League_For_POTW FROM players;
+
+SELECT Player, COUNT(Player) AS POTW_Times_Won FROM players GROUP BY Player;
+
+SELECT Player, COUNT(Player) AS POTW_Times_Won FROM players GROUP BY Player HAVING POTW_Times_Won >= 3;
+
+SELECT MAX(Position) AS Position_With_Most_POTW FROM players;
+
+SELECT MIN(Position) AS Position_With_Least_POTW FROM players;
